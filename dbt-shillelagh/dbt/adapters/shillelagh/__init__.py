@@ -10,4 +10,5 @@ Plugin = AdapterPlugin(
     adapter=ShillelaghAdapter,
     credentials=ShillelaghCredentials,
     include_path=shillelagh.PACKAGE_PATH,
+    dependencies=["sqlite"],
 )
