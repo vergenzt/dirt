@@ -9,4 +9,5 @@ ignore =
     E203 # makes Flake8 work like black
     E741
     E501
+max-line-length = 120
 exclude = tests
