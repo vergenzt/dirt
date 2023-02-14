@@ -1,0 +1,4 @@
+{
+  "pre-commit-helper.config": "dbt-shillelagh/.pre-commit-config.yaml",
+  "pre-commit-helper.runOnSave": "all hooks"
+}
