@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dirt-cli"
+version = "0.1.0"
+description = "Data Inter-Reactivity Tool"
+authors = ["Tim Vergenz <vergenzt@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dbt-core = "^1.4.1"
+dbt-sqlite = "^1.4.0"
+shillelagh = "^1.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
