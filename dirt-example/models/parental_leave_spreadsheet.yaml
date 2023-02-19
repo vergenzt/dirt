@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+- name: parental_leave_spreadsheet
+  schema: main
+  tables:
+
+  - name: _
+    identifier: "https://docs.google.com/spreadsheets/d/1GKWqhc3FVtSVKRZNBxyfwZ_QrB1f-i1T0-yBJ6X_YHM/edit#gid=0"
+    columns:
+    - name: "Company \n(Don’t see yours? Add it!)"
+    - name: "# employees\n(approx)"
+    - name: "# employees\n(size band)"
+    - name: "# weeks fully paid \nMaternity/primary"
+    - name: "# weeks fully paid \nPaternity/nonprimary"
+    - name: "Bonus Consideration During Leave (bonus prorated for LOA, reduced bonus target, full target bonus, etc.)"
+    - name: "comments / conditions / extra part-paid or unpaid"
+    - name: "Company\nLinkedIn"
+    - name: "Tenure"
